@@ -8,6 +8,24 @@
     Text Domain:  belikeastartup
 */
 
+.header-wrap {
+    background: url(images/blas-header.png) center;
+    background-size: cover;
+}
+
+#wpo-header.wpo-header-v4 .header-top {
+    background-color: transparent;
+}
+
+.header-middle::before,
+.header-middle::after {
+    display: none;
+}
+
+.header-wrapper-inner {
+    margin-bottom: -1px;
+}
+
 .post-listgrid {
 	margin-top: 0;
 }
@@ -18,4 +36,8 @@
 
 .featured-posts {
 	margin-bottom: 60px;
+}
+
+.navbar-offcanvas .offcanvas-inner .list-action > li.mini-cart {
+    display: none;
 }
