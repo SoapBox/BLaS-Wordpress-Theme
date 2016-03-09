@@ -37,7 +37,7 @@
                         </div>
 
                     </div>
-                    <div class="col-xs-3 wpo-sidebar">
+                    <div class="col-xs-12 col-sm-3 wpo-sidebar">
                        <?php dynamic_sidebar('sidebar-default'); ?>
                     </div>
                 </div>
