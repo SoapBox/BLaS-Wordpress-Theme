@@ -1,0 +1,17 @@
+/*
+    Theme Name:   #BeLikeAStartup
+    Description:  Custom child theme that extend the Notiz theme.
+    Author:       SoapBox Innovations Inc. (Chris Hayes)
+    Author URI:   http://soapboxhq.com
+    Template:     notiz
+    Version:      1.0.0
+    Text Domain:  belikeastartup
+*/
+
+.post-listgrid {
+	margin-top: 0;
+}
+
+.entry-meta-2 .post-icon {
+    display: none;
+}
